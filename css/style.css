@@ -5,3 +5,15 @@ img{
 body{
     background-color: lavender;
 }
+
+.group1{
+    margin: 20px;
+}
+
+.group1 img{
+    margin: 30px;
+}
+
+.group1:hover{
+    background-color: lightblue;
+}

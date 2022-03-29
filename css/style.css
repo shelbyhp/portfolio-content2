@@ -9,6 +9,9 @@ body{
 .group1{
     margin: 20px;
 }
+.group1:nth-child(2n+0){
+    background: navy
+}
 
 .group1 img{
     margin: 30px;
@@ -16,4 +19,8 @@ body{
 
 .group1:hover{
     background-color: lightblue;
+}
+
+.active:hover{
+background-color: pink;
 }
